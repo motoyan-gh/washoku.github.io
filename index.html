@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>和食図鑑.com</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">和食図鑑.com</h1>
+  </header>
+  <div class="main">
+    <section class="box">
+      <a href="#">
+        <img class="box-image" src="images/sushi.jpg">
+        <h2 class="box-title">寿司（すし）</h2>
+        <p class="box-desc">和食の王様！</p>
+      </a>
+    </section>
+    <section class="box">
+      <a href="#">
+        <img class="box-image" src="images/tempura.jpg">
+        <h2 class="box-title">天ぷら</h2>
+        <p class="box-desc">外はカリッ！中はジュワッ！</p>
+      </a>
+    </section>
+    <section class="box">
+      <a href="#">
+        <img class="box-image" src="images/soba.jpg">
+        <h2 class="box-title">そば</h2>
+        <p class="box-desc">シンプルこそ至高！</p>
+      </a>
+    </section>
+    <section class="box">
+      <a href="#">
+        <img class="box-image" src="images/yakiniku.jpg">
+        <h2 class="box-title">焼肉</h2>
+        <p class="box-desc">最強のジューシーさ！</p>
+      </a>
+    </section>
+    <section class="box">
+      <a href="#">
+        <img class="box-image" src="images/ramen.jpg">
+        <h2 class="box-title">ラーメン</h2>
+        <p class="box-desc">スープが命！</p>
+      </a>
+    </section>
+    <section class="box">
+      <a href="#">
+        <img class="box-image" src="images/curry.jpg">
+        <h2 class="box-title">カレー</h2>
+        <p class="box-desc">辛くて甘い！甘くて辛い！</p>
+      </a>
+    </section>
+    <section class="box">
+      <a href="#">
+        <img class="box-image" src="images/tonkatsu.jpg">
+        <h2 class="box-title">とんかつ</h2>
+        <p class="box-desc">カリカリの衣！ぶりぶりの肉！</p>
+      </a>
+    </section>
+    <section class="box">
+      <a href="#">
+        <img class="box-image" src="images/gyoza.jpg">
+        <h2 class="box-title">餃子</h2>
+        <p class="box-desc">溢れ出す肉汁がたまらない！</p>
+      </a>
+    </section>
+    <section class="box">
+      <a href="#">
+        <img class="box-image" src="images/yakisoba.jpg">
+        <h2 class="box-title">焼きそば</h2>
+        <p class="box-desc">絡まるソースが濃厚！</p>
+      </a>
+    </section>
+    <section class="box">
+      <a href="#">
+        <img class="box-image" src="images/yakitori.jpg">
+        <h2 class="box-title">焼き鳥</h2>
+        <p class="box-desc">酒に合う！</p>
+      </a>
+    </section>
+    <section class="box">
+      <a href="#">
+        <img class="box-image" src="images/okonomiyaki.jpg">
+        <h2 class="box-title">お好み焼き</h2>
+        <p class="box-desc">たくさんの具材！楽しい食感！</p>
+      </a>
+    </section>
+    <section class="box">
+      <a href="#">
+        <img class="box-image" src="images/sake.jpg">
+        <h2 class="box-title">日本酒</h2>
+        <p class="box-desc">口の中をさっぱりまとめる！</p>
+      </a>
+    </section>
+  </div>
+  <footer class="footer">
+    ©️washokuz.com
+  </footer>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+  <script>
+    new Masonry('.main', {
+      itemSelecter: '.box',
+      columnWidth: 250,
+      gutter: 20
+    });
+  </script>
+</body>
+</html>
